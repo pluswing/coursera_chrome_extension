@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Coursera Extension",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.coursera.org/learn/*"
+            ],
+            "js": [
+                "myscript.js"
+            ]
+        }
+    ]
+}
